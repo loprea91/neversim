@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neversim"
+version = "0.0.1"
+description = "NETSIM + Nevergrad optimisation toolkit"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "nevergrad",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+]
+
+[project.scripts]
+neversim = "neversim.cli:main"
+
+[tool.setuptools.package-dir]
+"" = "."
+
+[tool.setuptools.packages.find]
+include = ["neversim"]
+exclude = ["neversim.*"]

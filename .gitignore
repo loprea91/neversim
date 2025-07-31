@@ -1,0 +1,12 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Build artifacts
+build/
+dist/
+
+# Neversim output
+runs/
