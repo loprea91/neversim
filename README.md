@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-`neversim` Python toolkit for performing parameter optimisation on [NETSIM](https://www.netsim.com/) models. It uses the gradient-free optimisation algorithms from the [Nevergrad](https://facebookresearch.github.io/nevergrad/) library to efficiently search complex parameter spaces.
+`neversim` Python toolkit for performing parameter optimisation on [NETSIM]([https://www.netsim.com/](https://github.com/mullerlab/NETSIM)) models. It uses the gradient-free optimisation algorithms from the [Nevergrad](https://facebookresearch.github.io/nevergrad/) library to efficiently search complex parameter spaces.
 
 ---
 
